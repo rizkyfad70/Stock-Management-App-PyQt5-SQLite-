@@ -1,0 +1,20 @@
+qApp.setStyleSheet("""
+QTableWidget {
+    border: 1px solid #ff0000ff;
+    gridline-color: #dcdcdc;
+}
+
+QTableWidget::item {
+    padding: 4px;
+}
+
+QTableWidget::item:selected {
+    background-color: #cce8ff;
+}
+
+QHeaderView::section {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    padding: 4px;
+}
+""")

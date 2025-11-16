@@ -1,0 +1,46 @@
+QWidget {
+    background-color: #111;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+QLineEdit {
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #3c3c3c;
+    padding: 8px;
+}
+
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+QPushButton:hover {
+    background-color: #005fa3;
+}
+
+qApp.setStyleSheet("""
+QTableWidget {
+    border: 1px solid #ff0000ff;
+    gridline-color: #dcdcdc;
+}
+
+QTableWidget::item {
+    padding: 4px;
+}
+
+QTableWidget::item:selected {
+    background-color: #cce8ff;
+}
+
+QHeaderView::section {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    padding: 4px;
+}
+""")
